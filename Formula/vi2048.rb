@@ -5,7 +5,7 @@
 class Vi2048 < Formula
   desc "Play vi-style 2048 in Linux console."
   homepage "https://github.com/XhinLiang/vi2048"
-  url "https://github.com/XhinLiang/vi2048/archive/v1.0.0.tar.gz"
+  url "https://github.com/XhinLiang/vi2048/archive/1.2.0.tar.gz"
   sha256 "e107a66ad835775a44e3479cc735c389a75d93b72c83c1ce6c80610b5c0a9b52"
 
   depends_on "cmake"
