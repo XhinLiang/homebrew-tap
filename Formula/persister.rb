@@ -11,6 +11,6 @@ class Persister < Formula
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
-    system "mv", "persister", "/usr/local/bin/"
+    system "mv persister /usr/local/bin/"
   end
 end
