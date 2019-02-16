@@ -11,7 +11,8 @@ class Persister < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    system "mkdir bin && cp src/persister.py bin/persister"
-    system "ln -fsv $(pwd)/bin/persister /usr/local/bin/persister"
+    #system "mkdir bin && cp src/persister.py bin/persister"
+    #system "ln -fsv $(pwd)/bin/persister /usr/local/bin/persister"
+    system "pwd"
   end
 end
