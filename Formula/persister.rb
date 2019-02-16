@@ -5,8 +5,8 @@
 class Persister < Formula
   desc "persist the foreign image of markdown files."
   homepage "https://github.com/XhinLiang/persister"
-  url "https://github.com/XhinLiang/persister/releases/download/1.0.1/persister"
-  sha256 "cb38863ac34654f4836d72c8c396a24cdbcaa44046c27e0d1a1cc956c6e0451b"
+  url "https://github.com/XhinLiang/persister/archive/1.1.0.tar.gz"
+  sha256 "7e614e4d9ee47e18c7e7b9de0d4bf65bc7ae83dbdd3248e70ea71146d35d9524"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
