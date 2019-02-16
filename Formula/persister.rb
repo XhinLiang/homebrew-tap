@@ -8,10 +8,9 @@ class Persister < Formula
   url "https://github.com/XhinLiang/persister/archive/1.1.0.tar.gz"
   sha256 "7e614e4d9ee47e18c7e7b9de0d4bf65bc7ae83dbdd3248e70ea71146d35d9524"
 
-  depends_on "cmake"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    system "make", "install" # if this fails, try separate make/make install steps
+    system "mv persister /usr/local/bin/"
   end
 end
