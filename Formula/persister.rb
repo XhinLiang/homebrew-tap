@@ -5,8 +5,8 @@
 class Persister < Formula
   desc "persist the foreign image of markdown files."
   homepage "https://github.com/XhinLiang/persister"
-  url "https://github.com/XhinLiang/persister/archive/1.2.0.tar.gz"
-  sha256 "35799edc04c7a820f3ead821d0b094fc04592c0de7c818c74dc970be258028ec"
+  url "https://github.com/XhinLiang/persister/archive/1.3.0.tar.gz"
+  sha256 "bdbc84a44de7f7e53a285671cc8d65ca2476399a5e2c8ceb9f5871dd2137daae"
 
 
   def install
